@@ -1,0 +1,40 @@
+form button:hover , .nav-item a:hover{
+  color: red !important;
+  transition: all 0.5 ease-in-out !important;
+}
+.navbar-nav a{
+  margin-left: 50px;
+}
+nav{
+  background: #08192d !important;
+  color: white;
+}
+form ::placeholder{
+  color: #212529;
+}
+.name input, textarea{
+  background: grey;
+  outline: none !important;
+  border: none !important;
+  width: 100%;
+  height: 57px;
+  padding: 0 38px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 14px;
+  color: #6a7080;
+  background: #f5f6fa;
+}
+textarea{
+  height: 100px;
+  overflow:visible;
+}
+.text{
+  color: #08192d;
+}
+@media(max-width:426){
+  .image img{
+    width: 420px !important;
+  }
+}

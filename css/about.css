@@ -1,0 +1,37 @@
+form button:hover , .nav-item a:hover{
+  color: red !important;
+  transition: all 0.5 ease-in-out !important;
+}
+.navbar-nav a{
+  margin-left: 50px;
+}
+nav{
+  background: #08192d !important;
+  color: white;
+}
+.about{
+  background-image: url(../images/player-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.image{
+  padding: 57px 53px;
+}
+.grey{
+  background: #6a7080;
+  color: black;
+}
+.song-details{
+  background: #f9fcfd;
+}
+@media(max-width:769px){
+  .about-image{
+    display: none;
+  }
+}
+@media(max-width:426px){
+  .about-image{
+    display: none;
+  }
+}

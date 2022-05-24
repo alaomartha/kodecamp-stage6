@@ -4,13 +4,3 @@ form button:hover , .nav-item a:hover{
 .image{
   background-image: url(../images/player-bg.jpg);
 }
-@media(max-width:769px){
-  .about-image{
-    display: none;
-  }
-}
-@media(max-width:426px){
-  .about-image{
-    display: none;
-  }
-}

@@ -1,65 +1,12 @@
 form button:hover , .nav-item a:hover{
   color: red !important;
-  transition: all 0.5 ease-in-out !important;
 }
-.navbar-nav a{
-  margin-left: 50px;
-}
-nav{
-  background: #08192d !important;
-  color: white;
-}
-.bg{
-  background: #160830;
-  height: 100vh !important;
-  /* padding: 200px; */
-}
-.buttons .bg-indigo{
-  background: #6610f2;
-}
-.text{
-  color: #08192d ;
-}
-.how-it-works{
-  background-image: url(../images/how-to-bg.jpg);
-}
-.subscription{
-  background: #160830;
-}
-i{
-  margin-left: 10px;
-}
-
 /* multiple swiper */
-body {
-  position: relative;
-  height: 100%;
-}
-
-body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-
-  
-}
-
-.swiper {
-  width: 100%;
-  height: 100%;
-}
-
 .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   -webkit-justify-content: center;
@@ -67,28 +14,10 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   -webkit-align-items: center;
-  align-items: center;
 }
-
 .swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
   object-fit: cover;
 }
-
-body {
-  background: #eee;
-}
-
-.swiper {
-  width: 100%;
-  height: 100vh;
-}
-
-/* autoplay */
-
-
 @media(max-width:426px){
   .img-fluid{
     display: none;

@@ -12,7 +12,7 @@
 </head>
 <body>
   <div class="navigation-section">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top text-white" style=" background: #08192d">
       <div class="container py-3">
         <h1>SOUL <span class="text-danger">MUSIC</span></h1>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,10 +21,10 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active text-white m-auto" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-black text-white" href="about.html">About</a>
+              <a class="nav-link text-black text-white m-auto" href="about.html">About</a>
             </li>
             <!-- <li class="nav-item">
               <a class="nav-link text-black text-white" href="#">Pages</a>
@@ -33,7 +33,7 @@
               <a class="nav-link text-black text-white" href="#">News</a>
             </li> -->
             <li class="nav-item">
-              <a class="nav-link text-black text-white" href="#">Contact</a>
+              <a class="nav-link text-black text-white m-auto" href="#">Contact</a>
             </li>
             <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -109,18 +109,18 @@
 
     <div class="container">
       <div class="message">
-        <h1 class="text-center text">Send Us A Message Today</h1>
+        <h1 class="text-center text py-5 rounded-pill" style="color: #08192d;">Send Us A Message Today</h1>
         <form action="">
-          <div class="row">
-           <div class="name d-flex">
+          <div class="row" style="color: #6a7080;" style="background:#f5f6fa; ;">
+           <div class="name d-flex w-100 mb-1 text-secondary" style="font-size: 14px;" style="font-weight:500px ;">
             <input type="text" name="name" id="" placeholder="Your Name" class="rounded-pill py-2 w-50 mt-4">
             <input type="email" name="name" id="" placeholder="Your email" class="rounded-pill py-2 w-50 mt-4">
           </div>
           </div>
-          <div class="name">
+          <div class="name" style="font-size: 14px;" style="font-weight:500px ;">
             <input type="text" name="name" id="" placeholder="Subject" class="rounded-pill py-2 w-50 mt-4">
           </div>
-          <textarea name="message" id="" cols="30" rows="10" placeholder="Message" class="rounded w-50 mt-4">Message</textarea>
+          <textarea name="message" id="" cols="30" rows="10" placeholder="Message" class="rounded w-50 mt-4 overflow-visible" style="height:100px ;">Message</textarea>
         </form>
         <a href="#"><button class="text-white bg-danger py-3 rounded-pill mt-4 btn-outline-light w-25 mb-4">SEND MESSAGE</button></a>
       </div>

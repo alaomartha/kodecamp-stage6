@@ -18,6 +18,9 @@ form button:hover , .nav-item a:hover{
 .swiper-slide img {
   object-fit: cover;
 }
+.how-it-works{
+  background-image: url(../images/how-to-bg.jpg);
+}
 @media(max-width:426px){
   .img-fluid{
     display: none;

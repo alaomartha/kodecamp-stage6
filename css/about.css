@@ -4,3 +4,6 @@ form button:hover , .nav-item a:hover{
 .image{
   background-image: url(../images/player-bg.jpg);
 }
+.img{
+  margin-top: -45px;
+}
